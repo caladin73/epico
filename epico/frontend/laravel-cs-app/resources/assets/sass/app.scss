@@ -1,0 +1,59 @@
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+// Variables
+@import "variables";
+// Mixins
+@import "mixins";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+// Components
+@import "navigation";
+
+
+.avatar-img {
+    @include sizes(120px, 120px);
+    border-radius: 50%;
+}
+
+.panel {
+    .alert {
+        margin: 16px;
+    }
+}
+
+.form-group {
+    .info {
+        padding-top:7px
+    }
+    button {
+        padding: 6px 16px;
+        margin: 16px 0;
+    }
+    .avatar-img {
+        @include sizes(80px, 80px);
+    }
+}
+
+.user-profile {
+    .roles {
+        position: absolute;
+    }
+    .bio {
+        margin-bottom: 16px;
+    }
+    .avatar-img {
+        margin: 16px auto;
+    }
+}
+.label-1 {
+    background-color: $gray-light;
+}
+.label-2 {
+    background-color: $brand-primary;
+}
+.label-3 {
+    background-color: mix($gray-light, $brand-primary, 50%);
+}

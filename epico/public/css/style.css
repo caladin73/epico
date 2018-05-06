@@ -1,0 +1,281 @@
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0px;padding:0px;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+
+a{text-decoration:none;}
+.txt-rt{text-align:right;}
+.txt-lt{text-align:left;}
+.txt-center{text-align:center;}
+.float-rt{float:right;}
+.float-lt{float:left;}
+.clear{clear:both;}
+.pos-relative{position:relative;}
+.pos-absolute{position:absolute;}
+.vertical-base{	vertical-align:baseline;}
+.vertical-top{	vertical-align:top;}
+nav.vertical ul li{	display:block;}
+nav.horizontal ul li{	display: inline-block;}
+img{max-width:100%;}
+
+body{
+    font-family: 'Avenir';
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7) ), url("../images/labsfons.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header {
+    text-align: center;
+    margin-top: 4em;
+}
+.main-section {
+    width: 25%;
+    margin: 2em auto 0;
+    text-align: center;
+}
+.login-section {
+    background: transparent;
+    border-radius: 10px;
+}
+.login-section h2 {
+    padding: .6em 0;
+    background: #ac1540;
+    font-size: 1.5em;
+    color: #fff;
+    font-family: 'Avenir';
+    border-radius: 10px;
+}
+.login-top p {
+    font-size: 1.4em;
+    color: white;
+    padding-bottom: .5em;
+    font-family: 'Avenir';
+}
+
+
+.login-top {
+    padding: 2.5em 0;
+
+}
+.login-top ul li {
+    padding: 1.1em 0;
+}
+.login-top ul li a.face {
+    background:#007bb0;
+    padding: .8em 1.7em 0.9em 1em;
+    border-radius: 10px;
+}
+.login-top ul li a.face:hover {
+    background: #009bb4;
+}
+.login-top ul li a span.face {
+    background: url(../img/linked.png) no-repeat 0px 0px;
+    width:32px;
+    height:32px;
+    display:inline-block;
+    vertical-align: middle;
+    margin: 0em 1.5em .3em 0em;
+}
+.login-top ul li a {
+    font-size: 0.9em;
+    font-weight: 490;
+    color: #fff;
+    font-family: 'Avenir';
+}
+.login-middle input[type="text"] {
+    width: 50%;
+    padding: .8em 1.5em;
+    outline: none;
+    margin: 1em 0;
+    border-radius: 6px;
+    border: 2px solid#ffffff;
+    outline: none;
+    color: white;
+    background-color: transparent;
+}
+.login-middle input[type="password"] {
+    width: 50%;
+    padding: .8em 1.5em;
+    outline: none;
+    border-radius: 6px;
+    border: 2px solid#ffffff;
+    outline: none;
+    color: white;
+    background-color: transparent;
+}
+.login-middle {
+    padding: 2.5em 0;
+}
+.login-middle p {
+    font-size: 1.4em;
+    color: white;
+    padding-bottom: .5em;
+    font-family: 'Avenir';
+}
+.login-bottom {
+    padding: 2em 1em;
+}
+.login-left {
+    float: left;
+}
+.login-right {
+    float: right;
+}
+.login-bottom {
+    padding: 1em 3em 4em;
+
+}
+.login-left p {
+    font-size: .9em;
+    color: white;
+    line-height: 1.8em;
+}
+.login-left a {
+    font-size: 1em;
+    color: white;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+.login-right input[type="submit"] {
+    padding: .5em 1em;
+    background: #ac1540;
+    outline: none;
+    border: none;
+    font-size: 1em;
+    display: block;
+    margin-top: -3em;
+    cursor: pointer;
+    color:#fff;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    border-radius: 10px;
+}
+.login-right input[type="submit"]:hover {
+    background: black;
+}
+::-web-input-placeholder{
+    font-size:.95em;
+}
+.footer {
+    text-align: center;
+    padding:2.4em 0;
+}
+.footer p {
+    font-size: .9em;
+    color: #fff;
+    margin: 0px;
+}
+.footer p a {
+    color: #fff;
+}
+.footer p a:hover {
+    color: #f99104;
+}
+
+@media (max-width:1440px){
+}
+@media (max-width:1366px){
+    .login-middle input[type="text"] {
+        width: 53%;
+    }
+    .login-middle input[type="password"] {
+        width: 53%;
+    }
+}
+@media (max-width: 1280px){
+    .login-middle input[type="text"] {
+        width: 57%;
+    }
+    .login-middle input[type="password"] {
+        width: 57%;
+    }
+}
+@media (max-width: 1080px){
+    .main-section {
+        width: 35%;
+    }
+}
+@media (max-width: 991px){
+    .header h1 {
+        font-size: 3em;
+    }
+}
+@media (max-width: 800px){
+    .main-section {
+        width: 40%;
+    }
+}
+@media (max-width: 768px){
+    .main-section {
+        width: 45%;
+    }
+}
+@media (max-width: 648px){
+    .header {
+        margin-top: 3em;
+    }
+    .main-section {
+        width: 51%;
+    }
+}
+@media (max-width: 480px){
+    .header h1 {
+        font-size: 2.8em;
+    }
+    .main-section {
+        width: 65%;
+    }
+    .login-section h2 {
+        font-size: 1.3em;
+    }
+}
+@media (max-width: 414px){
+    .main-section {
+        width: 78%;
+    }
+}
+@media (max-width: 375px){
+    .main-section {
+        width: 85%;
+    }
+}
+@media (max-width: 320px){
+    .main-section {
+        width: 90%;
+    }
+    .header h1 {
+        font-size: 2.7em;
+    }
+    .header {
+        margin-top: 2em;
+    }
+    .login-middle input[type="text"] {
+        width: 70%;
+    }
+    .login-middle input[type="password"] {
+        width: 70%;
+    }
+    .login-bottom {
+        padding: 1em 1em 4em;
+    }
+    .footer {
+        padding: 2em 0;
+    }
+    .footer p {
+        font-size: .85em;
+    }
+}
+
